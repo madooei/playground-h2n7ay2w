@@ -1,3 +1,5 @@
+from isPalindrome import isPalindrome
+
 # Test
 assert isPalindrome("ali")==False
 assert isPalindrome("bob")
