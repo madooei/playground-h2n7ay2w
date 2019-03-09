@@ -3,7 +3,7 @@ from isPalindrome import isPalindrome
 def run():
   assert isPalindrome("ali")==False, "ali is not palindrome"
   assert isPalindrome("bob"), "bob is palindrom"
-  assert isPalindrome("hannah"), "hannah is palindrome'
+  assert isPalindrome("hannah"), "hannah is palindrome"
   assert isPalindrome("ada"), "ada is plaindrome"
   assert isPalindrome("anna"), "anna is palindrome"
   assert isPalindrome("nitin"), "nitin is palindrome"
