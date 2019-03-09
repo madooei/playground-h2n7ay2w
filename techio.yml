@@ -2,3 +2,7 @@ title: Basics of Recursive Programming
 plan:
   - title: Part 1
     statement: markdowns/welcome.md
+projects:
+  python:
+    root: /python-project
+    runner: python:3
