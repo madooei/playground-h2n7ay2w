@@ -24,3 +24,9 @@ Think of converting the original problem to a sub-problem of smaller size.
 
 
 @[Implement your recursive solution.]({"stubs": ["exp.py"], "command": "python3 test_exp.py"})
+
+
+---
+
+
+@[Implement your recursive solution.]({"stubs": ["count_paths.py"], "command": "python3 test_count_paths.py"})
