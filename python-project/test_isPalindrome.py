@@ -22,7 +22,8 @@ def tests():
   except AssertionError as e:
     fail()
     send_msg("Oops! 🐞", e)
-    send_msg("Hint 💡", "What is the smallest palindrome? 🤔")   
+    send_msg("Hint 💡", "What is the smallest palindrome? 🤔")
+    return;
     
   try:
     assert isPalindrome("ali")==False, "ali is not palindrome"
