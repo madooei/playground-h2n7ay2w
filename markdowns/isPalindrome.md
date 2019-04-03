@@ -35,8 +35,12 @@ Think of converting the original problem to a sub-problem of smaller size.
 ---
 
 ```python runnable
+# REQUIRES: n >= 1
+# EFFECTS: prints numbers from n to 1
 def count(n):
-    for k in range(n, -1, 0):
+    for k in range(n, 0, -1):
         print(k)
 
+
+count(5)
 ```
