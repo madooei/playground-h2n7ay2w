@@ -19,6 +19,7 @@ def fail():
 def tests():
   try:
     assert isPalindrome("")
+    assert isPalindrome("a")
   except AssertionError as e:
     fail()
     send_msg("Oops! 🐞", e)
