@@ -1,4 +1,4 @@
-from isPalindrome import isPalindrome
+from exp import exp
 
 def send_msg(channel, msg):
     print("TECHIO> message --channel \"{}\" \"{}\"".format(channel, msg))
