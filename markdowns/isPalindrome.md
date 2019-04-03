@@ -18,3 +18,9 @@ Think of converting the original problem to a sub-problem of smaller size.
 :::
 
 @[Implement your recursive solution.]({"stubs": ["isPalindrome.py"], "command": "python3 test_isPalindrome.py"})
+
+
+---
+
+
+@[Implement your recursive solution.]({"stubs": ["exp.py"], "command": "python3 test_exp.py"})
