@@ -1,4 +1,5 @@
-# REQUIRES: b >= 0 and n >= 0
-# EFFECTS: returns b**n
+# REQUIRES: b > 0 and n >= 0
+# EFFECTS: returns b^n
 def exp(b, n):
-    return 1   # stub
+    if n == 0 :    # Base case
+    else:          # Recursive case
