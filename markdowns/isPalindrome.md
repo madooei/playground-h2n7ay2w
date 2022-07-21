@@ -64,10 +64,10 @@ for n in range(6):
 # REQUIRES: n >= 0
 # EFFECTS: return value is the n!
 def factorial(n):
-    if n == 0: 
+    if n==0:
         return 1
-    else :
-        factorial(n - 1) * n
+    else:
+        return factorial(n-1) * n
   
 # Print n! for n={0,1,2,3,4,5}
 for n in range(6):
