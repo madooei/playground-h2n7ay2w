@@ -66,7 +66,7 @@ for n in range(6):
 def factorial(n):
     if n == 0: 
         return 1
-    else
+    else :
         factorial(n - 1) * n
   
 # Print n! for n={0,1,2,3,4,5}
